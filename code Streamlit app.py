@@ -263,7 +263,7 @@ def show_leaflet_map():
         # Поиск локации
         search_query = st.text_input(
             "🔍 Search any location", 
-            placeholder="Try: 'Tel Aviv', 'Kyiv', 'Lviv',  'Paris', 'Times Square NYC'...",
+            placeholder="Try: 'Tel Aviv', 'Kyiv', 'Paris', 'Times Square NYC'...",
             help="Enter any city, address, landmark, or coordinates"
         )
         
